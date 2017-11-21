@@ -34,19 +34,12 @@ function brainWallet(uinput, callback){
 var Http_URL = 8080;
 
 
-request({
-    url:"https://btc-e.com/api/3/ticker/btc_usd",
-    json: true
-},function(err,response,body){
-    price = body.btc_usd.last;
-});
+
 
 app.get("/",function(req,res){
     //res.sendFile(__dirname+ "/index.html");
     //res.send("Bitcoin update: " + btcPrice);
-    res.render("index",{
-            lastPrice: price
-    });
+    res.render("index");
 });
 
 //app.get("/block",function(req,res){
