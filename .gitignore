@@ -3,6 +3,7 @@
 
 *node_modules/*
 
+*.la
 # Python
 *.pyc
 *.pyo
