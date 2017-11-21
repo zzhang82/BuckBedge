@@ -19,3 +19,7 @@ I am simply just start this as a blank page, the GGGoal is to study and help my 
 
 
 Bootstrapcdn.com/watch
+
+https://www.npmjs.com/package/blocktrail-sdk
+
+https://www.blocktrail.com/
