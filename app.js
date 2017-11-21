@@ -2,6 +2,7 @@ var express = require('express');
 var request = require('request');
 var bodyparser = require('body-parser');
 var bitcore = require("bitcore-lib");
+var ejs = require("ejs");
 var app = express();
 
 /*request({
@@ -33,8 +34,9 @@ function brainWallet(uinput, callback){
 var Http_URL = 8080;
 
 app.get("/",function(req,res){
-    res.sendFile(__dirname+ "/index.html");
+    //res.sendFile(__dirname+ "/index.html");
     //res.send("Bitcoin update: " + btcPrice);
+    res.render("index");
 });
 
 //app.get("/block",function(req,res){
