@@ -10,3 +10,9 @@
 I am simply just start this as a blank page, the GGGoal is to study and help my other project for the data securie purposes.
 
 <p>The First Stage is to get Key and Address 256 encry work</p>
+
+
+<div style="text-align:center">
+    <img src ="https://raw.githubusercontent.com/SpectroFinance/SpectroCoin-Wallet-API/master/wallet%20api.jpg" />
+  </a>
+</div>
