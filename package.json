@@ -4,6 +4,8 @@
   "description": "blockc hash",
   "main": "app.js",
   "dependencies": {
+    "bitcore-lib": "^0.15.0",
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "http": "0.0.0",
     "request": "^2.83.0"
